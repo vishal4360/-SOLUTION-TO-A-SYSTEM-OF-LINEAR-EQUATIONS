@@ -16,17 +16,19 @@ End the program
 ## Program:
 ```
 #Program to find the solution for the given linear equations.
-#Developed by: Senthil Raj G
-#RegisterNumber: 212224100054
+#Developed by: VISHAL C
+#RegisterNumber: 212224100062
 import numpy as np
-A= np.array([[5,-3,-10], [2,2,-3], [-3,-1,5]])
-B= np.array([-9,4,-1])
-result=np.linalg.solve(A,B)
-print(result)
+A=[[5,-3,-10],[2,2,-3],[-3,-1,5]]
+B=np.array([-9,4,-1])
+C=np.linalg.solve(A,B)
+print(C)
 ```
 
 ## Output:
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/3b3d0cc3-d7d4-4938-a90a-b2d89eb568c5)
+
+
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
